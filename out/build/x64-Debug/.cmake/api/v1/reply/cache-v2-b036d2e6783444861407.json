@@ -675,7 +675,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "TDs"
+			"value" : "TD"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1100,6 +1100,78 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/erwan.graire/source/repos/TD/TD1"
+		},
+		{
+			"name" : "TD2_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2"
+		},
+		{
+			"name" : "TD2_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TD2_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/erwan.graire/source/repos/TD/TD2"
+		},
+		{
+			"name" : "TD_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2"
+		},
+		{
+			"name" : "TD_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "TD_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/erwan.graire/source/repos/TD/TD2"
 		},
 		{
 			"name" : "TDs_BINARY_DIR",

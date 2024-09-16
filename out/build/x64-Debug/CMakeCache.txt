@@ -122,7 +122,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=TDs
+CMAKE_PROJECT_NAME:STATIC=TD
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.22621.0/x64/rc.exe
@@ -203,6 +203,24 @@ TD1_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 TD1_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/TD1
+
+//Value Computed by CMake
+TD2_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2
+
+//Value Computed by CMake
+TD2_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+TD2_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/TD2
+
+//Value Computed by CMake
+TD_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2
+
+//Value Computed by CMake
+TD_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+TD_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/TD2
 
 //Value Computed by CMake
 TDs_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug
@@ -304,7 +322,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

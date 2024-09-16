@@ -9,8 +9,7 @@ char minuscule(char c) {
     if (c >= 'A' && c <= 'Z') {
         // Convertir en minuscule en ajoutant la différence entre 'a' et 'A' (32)
         return c + 32;
-    }
-    // Si ce n'est pas une majuscule, retourner le caractère tel quel
+    } 
     return c;
 }
 
@@ -63,7 +62,7 @@ int main() {
 
     // Entrer un caractère
     printf("Entrez un caractère : ");
-    scanf("%c", &caractere);
+    scanf("%c", &caractere);        
 
     // Appeler la fonction et afficher le résultat
     printf("Le caractère en minuscule est : %c\n", minuscule(caractere));

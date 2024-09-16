@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -32,6 +33,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "TD2",
+					"jsonFile" : "directory-TD2-Debug-6c2872e3574fabcfa3d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TD2",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -44,9 +60,14 @@
 					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						2
 					],
-					"name" : "TDs"
+					"name" : "TD",
+					"targetIndexes" : 
+					[
+						1
+					]
 				},
 				{
 					"directoryIndexes" : 
@@ -69,6 +90,13 @@
 					"jsonFile" : "target-TD1-Debug-5d415cb44faa423e81d1.json",
 					"name" : "TD1",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "TD2::@9da4ee0c75e8576e4e08",
+					"jsonFile" : "target-TD2-Debug-fd1af47a6d01a954e6d2.json",
+					"name" : "TD2",
+					"projectIndex" : 0
 				}
 			]
 		}
