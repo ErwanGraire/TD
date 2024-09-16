@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(TD1)
+project(TD)
 
 # Ajout des fichiers sources
 set(SRCS "main.c")

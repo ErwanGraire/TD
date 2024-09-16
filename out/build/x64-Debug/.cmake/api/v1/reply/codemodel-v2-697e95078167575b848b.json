@@ -27,7 +27,7 @@
 						"string" : "3.10"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 1,
+					"projectIndex" : 0,
 					"source" : "TD1",
 					"targetIndexes" : 
 					[
@@ -54,31 +54,17 @@
 			"projects" : 
 			[
 				{
-					"childIndexes" : 
-					[
-						1
-					],
 					"directoryIndexes" : 
 					[
 						0,
+						1,
 						2
 					],
 					"name" : "TD",
 					"targetIndexes" : 
 					[
+						0,
 						1
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
-						1
-					],
-					"name" : "TD1",
-					"parentIndex" : 0,
-					"targetIndexes" : 
-					[
-						0
 					]
 				}
 			],
@@ -89,7 +75,7 @@
 					"id" : "TD1::@b566191a3c274e145dff",
 					"jsonFile" : "target-TD1-Debug-5d415cb44faa423e81d1.json",
 					"name" : "TD1",
-					"projectIndex" : 1
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
