@@ -69,40 +69,184 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target TD1
+# Object build statements for EXECUTABLE target TD1_1
 
 
 #############################################
-# Order-only phony target for TD1
+# Order-only phony target for TD1_1
 
-build cmake_object_order_depends_target_TD1: phony || .
+build cmake_object_order_depends_target_TD1_1: phony || .
 
-build TD1\CMakeFiles\TD1.dir\main.c.obj: C_COMPILER__TD1_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\main.c || cmake_object_order_depends_target_TD1
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = TD1\CMakeFiles\TD1.dir
-  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1.dir
-  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1.dir\
-  TARGET_PDB = TD1\TD1.pdb
+build TD1\CMakeFiles\TD1_1.dir\TD1_1.cpp.obj: CXX_COMPILER__TD1_1_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_1.cpp || cmake_object_order_depends_target_TD1_1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_1.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_1.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_1.dir\
+  TARGET_PDB = TD1\TD1_1.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TD1
+# Link build statements for EXECUTABLE target TD1_1
 
 
 #############################################
-# Link the executable TD1\TD1.exe
+# Link the executable TD1\TD1_1.exe
 
-build TD1\TD1.exe: C_EXECUTABLE_LINKER__TD1_Debug TD1\CMakeFiles\TD1.dir\main.c.obj
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+build TD1\TD1_1.exe: CXX_EXECUTABLE_LINKER__TD1_1_Debug TD1\CMakeFiles\TD1_1.dir\TD1_1.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = TD1\CMakeFiles\TD1.dir
+  OBJECT_DIR = TD1\CMakeFiles\TD1_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1.dir\
-  TARGET_FILE = TD1\TD1.exe
-  TARGET_IMPLIB = TD1\TD1.lib
-  TARGET_PDB = TD1\TD1.pdb
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_1.dir\
+  TARGET_FILE = TD1\TD1_1.exe
+  TARGET_IMPLIB = TD1\TD1_1.lib
+  TARGET_PDB = TD1\TD1_1.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_2
+
+
+#############################################
+# Order-only phony target for TD1_2
+
+build cmake_object_order_depends_target_TD1_2: phony || .
+
+build TD1\CMakeFiles\TD1_2.dir\TD1_2.cpp.obj: CXX_COMPILER__TD1_2_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_2.cpp || cmake_object_order_depends_target_TD1_2
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_2.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_2.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_2.dir\
+  TARGET_PDB = TD1\TD1_2.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_2
+
+
+#############################################
+# Link the executable TD1\TD1_2.exe
+
+build TD1\TD1_2.exe: CXX_EXECUTABLE_LINKER__TD1_2_Debug TD1\CMakeFiles\TD1_2.dir\TD1_2.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_2.dir\
+  TARGET_FILE = TD1\TD1_2.exe
+  TARGET_IMPLIB = TD1\TD1_2.lib
+  TARGET_PDB = TD1\TD1_2.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_3
+
+
+#############################################
+# Order-only phony target for TD1_3
+
+build cmake_object_order_depends_target_TD1_3: phony || .
+
+build TD1\CMakeFiles\TD1_3.dir\TD1_3.cpp.obj: CXX_COMPILER__TD1_3_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_3.cpp || cmake_object_order_depends_target_TD1_3
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_3.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_3.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_3.dir\
+  TARGET_PDB = TD1\TD1_3.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_3
+
+
+#############################################
+# Link the executable TD1\TD1_3.exe
+
+build TD1\TD1_3.exe: CXX_EXECUTABLE_LINKER__TD1_3_Debug TD1\CMakeFiles\TD1_3.dir\TD1_3.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_3.dir\
+  TARGET_FILE = TD1\TD1_3.exe
+  TARGET_IMPLIB = TD1\TD1_3.lib
+  TARGET_PDB = TD1\TD1_3.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_4
+
+
+#############################################
+# Order-only phony target for TD1_4
+
+build cmake_object_order_depends_target_TD1_4: phony || .
+
+build TD1\CMakeFiles\TD1_4.dir\TD1_4.cpp.obj: CXX_COMPILER__TD1_4_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_4.cpp || cmake_object_order_depends_target_TD1_4
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_4.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_4.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_4.dir\
+  TARGET_PDB = TD1\TD1_4.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_4
+
+
+#############################################
+# Link the executable TD1\TD1_4.exe
+
+build TD1\TD1_4.exe: CXX_EXECUTABLE_LINKER__TD1_4_Debug TD1\CMakeFiles\TD1_4.dir\TD1_4.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_4.dir\
+  TARGET_FILE = TD1\TD1_4.exe
+  TARGET_IMPLIB = TD1\TD1_4.lib
+  TARGET_PDB = TD1\TD1_4.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_5
+
+
+#############################################
+# Order-only phony target for TD1_5
+
+build cmake_object_order_depends_target_TD1_5: phony || .
+
+build TD1\CMakeFiles\TD1_5.dir\TD1_5.cpp.obj: CXX_COMPILER__TD1_5_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_5.cpp || cmake_object_order_depends_target_TD1_5
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_5.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_5.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_5.dir\
+  TARGET_PDB = TD1\TD1_5.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_5
+
+
+#############################################
+# Link the executable TD1\TD1_5.exe
+
+build TD1\TD1_5.exe: CXX_EXECUTABLE_LINKER__TD1_5_Debug TD1\CMakeFiles\TD1_5.dir\TD1_5.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_5.dir\
+  TARGET_FILE = TD1\TD1_5.exe
+  TARGET_IMPLIB = TD1\TD1_5.lib
+  TARGET_PDB = TD1\TD1_5.pdb
 
 
 #############################################
@@ -133,40 +277,40 @@ build TD1\rebuild_cache: phony TD1\CMakeFiles\rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target TD2
+# Object build statements for EXECUTABLE target TD2_1
 
 
 #############################################
-# Order-only phony target for TD2
+# Order-only phony target for TD2_1
 
-build cmake_object_order_depends_target_TD2: phony || .
+build cmake_object_order_depends_target_TD2_1: phony || .
 
-build TD2\CMakeFiles\TD2.dir\main2.c.obj: C_COMPILER__TD2_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD2\main2.c || cmake_object_order_depends_target_TD2
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
-  OBJECT_DIR = TD2\CMakeFiles\TD2.dir
-  OBJECT_FILE_DIR = TD2\CMakeFiles\TD2.dir
-  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2.dir\
-  TARGET_PDB = TD2\TD2.pdb
+build TD2\CMakeFiles\TD2_1.dir\TD2_1.cpp.obj: CXX_COMPILER__TD2_1_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD2\TD2_1.cpp || cmake_object_order_depends_target_TD2_1
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD2\CMakeFiles\TD2_1.dir
+  OBJECT_FILE_DIR = TD2\CMakeFiles\TD2_1.dir
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_1.dir\
+  TARGET_PDB = TD2\TD2_1.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TD2
+# Link build statements for EXECUTABLE target TD2_1
 
 
 #############################################
-# Link the executable TD2\TD2.exe
+# Link the executable TD2\TD2_1.exe
 
-build TD2\TD2.exe: C_EXECUTABLE_LINKER__TD2_Debug TD2\CMakeFiles\TD2.dir\main2.c.obj
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+build TD2\TD2_1.exe: CXX_EXECUTABLE_LINKER__TD2_1_Debug TD2\CMakeFiles\TD2_1.dir\TD2_1.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = TD2\CMakeFiles\TD2.dir
+  OBJECT_DIR = TD2\CMakeFiles\TD2_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2.dir\
-  TARGET_FILE = TD2\TD2.exe
-  TARGET_IMPLIB = TD2\TD2.lib
-  TARGET_PDB = TD2\TD2.pdb
+  TARGET_COMPILE_PDB = TD2\CMakeFiles\TD2_1.dir\
+  TARGET_FILE = TD2\TD2_1.exe
+  TARGET_IMPLIB = TD2\TD2_1.lib
+  TARGET_PDB = TD2\TD2_1.pdb
 
 
 #############################################
@@ -194,13 +338,29 @@ build TD2\rebuild_cache: phony TD2\CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build TD1: phony TD1\TD1.exe
+build TD1_1: phony TD1\TD1_1.exe
 
-build TD1.exe: phony TD1\TD1.exe
+build TD1_1.exe: phony TD1\TD1_1.exe
 
-build TD2: phony TD2\TD2.exe
+build TD1_2: phony TD1\TD1_2.exe
 
-build TD2.exe: phony TD2\TD2.exe
+build TD1_2.exe: phony TD1\TD1_2.exe
+
+build TD1_3: phony TD1\TD1_3.exe
+
+build TD1_3.exe: phony TD1\TD1_3.exe
+
+build TD1_4: phony TD1\TD1_4.exe
+
+build TD1_4.exe: phony TD1\TD1_4.exe
+
+build TD1_5: phony TD1\TD1_5.exe
+
+build TD1_5.exe: phony TD1\TD1_5.exe
+
+build TD2_1: phony TD2\TD2_1.exe
+
+build TD2_1.exe: phony TD2\TD2_1.exe
 
 # =============================================================================
 # Folder targets.
@@ -217,14 +377,14 @@ build all: phony TD1\all TD2\all
 #############################################
 # Folder: C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD1
 
-build TD1\all: phony TD1\TD1.exe
+build TD1\all: phony TD1\TD1_1.exe TD1\TD1_2.exe TD1\TD1_3.exe TD1\TD1_4.exe TD1\TD1_5.exe
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2
 
-build TD2\all: phony TD2\TD2.exe
+build TD2\all: phony TD2\TD2_1.exe
 
 # =============================================================================
 # Built-in targets

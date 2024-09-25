@@ -1,23 +1,11 @@
-/*Premier programme en C*/
+
 #include<stdlib.h>
 #include<stdio.h>
-
-
-// Fonction qui retourne la version minuscule d'un caractère donné
-char minuscule(char c) {
-    // Vérifier si le caractère est une majuscule (entre 'A' et 'Z')
-    if (c >= 'A' && c <= 'Z') {
-        // Convertir en minuscule en ajoutant la différence entre 'a' et 'A' (32)
-        return c + 32;
-    } 
-    return c;
-}
-
-
+#include <math.h>
 
 int main() {
 
-    /*//Exercice 2
+    //Exercice 2
     float a, b, c, discriminant, racine1, racine2, part_imaginaire;
 
     // Demande des coefficients a, b et c
@@ -55,18 +43,5 @@ int main() {
         printf("Racine 2 = %.2f - %.2fi\n", racine1, part_imaginaire);
     }
 
-    return 0; */
-
-	//Exercice 3
-    char caractere;
-
-    // Entrer un caractère
-    printf("Entrez un caractère : ");
-    scanf("%c", &caractere);        
-
-    // Appeler la fonction et afficher le résultat
-    printf("Le caractère en minuscule est : %c\n", minuscule(caractere));
-
     return 0;
 }
-

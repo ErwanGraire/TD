@@ -214,13 +214,13 @@ TD2_IS_TOP_LEVEL:STATIC=OFF
 TD2_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/TD2
 
 //Value Computed by CMake
-TD_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2
+TD_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug
 
 //Value Computed by CMake
-TD_IS_TOP_LEVEL:STATIC=OFF
+TD_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-TD_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/TD2
+TD_SOURCE_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD
 
 //Value Computed by CMake
 TDs_BINARY_DIR:STATIC=C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug

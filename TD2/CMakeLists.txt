@@ -1,8 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(TD)
+project(TD2)
 
-# Ajout des fichiers sources
-set(SRCS "main2.c")
-
-# Ajout de l'exécutable avec les fichiers sources
-add_executable(TD2 ${SRCS})
+#Ajout des exécutables avec les fichiers sources
+add_executable(TD2_1 "TD2_1.cpp")
