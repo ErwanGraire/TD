@@ -36,7 +36,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -51,7 +52,7 @@
 					"source" : "TD2",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				}
 			],
@@ -84,7 +85,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -96,7 +98,7 @@
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				}
 			],
@@ -142,6 +144,13 @@
 					"id" : "TD1_7::@b566191a3c274e145dff",
 					"jsonFile" : "target-TD1_7-Debug-a3fe3d85976814b5b616.json",
 					"name" : "TD1_7",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TD1_8::@b566191a3c274e145dff",
+					"jsonFile" : "target-TD1_8-Debug-f9d7e02e355e8c93c51f.json",
+					"name" : "TD1_8",
 					"projectIndex" : 1
 				},
 				{

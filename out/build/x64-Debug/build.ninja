@@ -284,6 +284,42 @@ build TD1\TD1_7.exe: CXX_EXECUTABLE_LINKER__TD1_7_Debug TD1\CMakeFiles\TD1_7.dir
   TARGET_IMPLIB = TD1\TD1_7.lib
   TARGET_PDB = TD1\TD1_7.pdb
 
+# =============================================================================
+# Object build statements for EXECUTABLE target TD1_8
+
+
+#############################################
+# Order-only phony target for TD1_8
+
+build cmake_object_order_depends_target_TD1_8: phony || .
+
+build TD1\CMakeFiles\TD1_8.dir\TD1_8.cpp.obj: CXX_COMPILER__TD1_8_unscanned_Debug C$:\Users\erwan.graire\source\repos\TD\TD1\TD1_8.cpp || cmake_object_order_depends_target_TD1_8
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  OBJECT_DIR = TD1\CMakeFiles\TD1_8.dir
+  OBJECT_FILE_DIR = TD1\CMakeFiles\TD1_8.dir
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_8.dir\
+  TARGET_PDB = TD1\TD1_8.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TD1_8
+
+
+#############################################
+# Link the executable TD1\TD1_8.exe
+
+build TD1\TD1_8.exe: CXX_EXECUTABLE_LINKER__TD1_8_Debug TD1\CMakeFiles\TD1_8.dir\TD1_8.cpp.obj
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = TD1\CMakeFiles\TD1_8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = TD1\CMakeFiles\TD1_8.dir\
+  TARGET_FILE = TD1\TD1_8.exe
+  TARGET_IMPLIB = TD1\TD1_8.lib
+  TARGET_PDB = TD1\TD1_8.pdb
+
 
 #############################################
 # Utility command for edit_cache
@@ -398,6 +434,10 @@ build TD1_7: phony TD1\TD1_7.exe
 
 build TD1_7.exe: phony TD1\TD1_7.exe
 
+build TD1_8: phony TD1\TD1_8.exe
+
+build TD1_8.exe: phony TD1\TD1_8.exe
+
 build TD2_1: phony TD2\TD2_1.exe
 
 build TD2_1.exe: phony TD2\TD2_1.exe
@@ -417,7 +457,7 @@ build all: phony TD1\all TD2\all
 #############################################
 # Folder: C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD1
 
-build TD1\all: phony TD1\TD1_1.exe TD1\TD1_2.exe TD1\TD1_3.exe TD1\TD1_4.exe TD1\TD1_5.exe TD1\TD1_7.exe
+build TD1\all: phony TD1\TD1_1.exe TD1\TD1_2.exe TD1\TD1_3.exe TD1\TD1_4.exe TD1\TD1_5.exe TD1\TD1_7.exe TD1\TD1_8.exe
 
 # =============================================================================
 
