@@ -3,7 +3,7 @@
 #include <cstdlib>  
 using namespace std;
 
-int main(void) {
+int main() {
 	
 	int a;
 	int b;
@@ -13,5 +13,6 @@ int main(void) {
 	cin >> b;
 	cout << "Vos valeur sont " << a << " et " << b << endl;
 	cout << multiplier(a + 1, b + 1) << endl;
+	return 0;
 	
 }
