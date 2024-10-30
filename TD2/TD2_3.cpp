@@ -2,7 +2,9 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <map>
 #include <cctype> 
+#include <vector> 
 using namespace std;
 
 // Programme qui lit un fichier texte et compte le nombre de mots, lettres et lignes
@@ -28,9 +30,7 @@ int main() {
         while (ss >> mot) {
             nbmot++;
             for (char c : mot) {
-                if (isalpha(static_cast<unsigned char>(c))) { 
-                    nbLettre++;
-                }
+                nbLettre++;
             }
         }
     }
