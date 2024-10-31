@@ -8,9 +8,9 @@ private:
 public:
     // Constructeur par défaut pour initialiser avec des valeurs aléatoires
     Point3D() {
-        x = static_cast<float>(rand() % 101);
-        y = static_cast<float>(rand() % 101);
-        z = static_cast<float>(rand() % 101);
+        x = static_cast<float>(rand() % 99);
+        y = static_cast<float>(rand() % 99);
+        z = static_cast<float>(rand() % 99);
     }
 
     // Constructeur avec valeurs spécifiques
