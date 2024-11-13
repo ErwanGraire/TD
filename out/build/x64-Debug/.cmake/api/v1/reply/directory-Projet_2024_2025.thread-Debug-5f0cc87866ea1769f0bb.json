@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"Projet_2024_2025/thread/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "C:/Users/erwan.graire/source/repos/TD/Projet_2024_2025/thread/../bin",
+			"paths" : 
+			[
+				"Projet_2024_2025/thread/thread_example.exe"
+			],
+			"targetId" : "thread_example::@606debf2f87a7a86f6fe",
+			"targetIndex" : 23,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "Projet_2024_2025/thread",
+		"source" : "Projet_2024_2025/thread"
+	}
+}

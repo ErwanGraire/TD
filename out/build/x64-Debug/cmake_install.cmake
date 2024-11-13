@@ -36,6 +36,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD1/cmake_install.cmake")
   include("C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD2/cmake_install.cmake")
+  include("C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/TD3/cmake_install.cmake")
+  include("C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/DS/cmake_install.cmake")
+  include("C:/Users/erwan.graire/source/repos/TD/out/build/x64-Debug/Projet_2024_2025/cmake_install.cmake")
 
 endif()
 

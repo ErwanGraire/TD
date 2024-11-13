@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "Projet_2024_2025/SFML_examples/test_SFML2",
+		"source" : "Projet_2024_2025/SFML_examples/test_SFML2"
+	}
+}
